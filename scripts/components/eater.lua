@@ -2,276 +2,38 @@ data = {
 
     ["OnRemoveFromEntity"] = {
         params = {
-
+            -- 无参数
         },
         returns = {
-            
+            -- 无返回值
         },
-        tips = "",
-        author = "",
+        tips = "当组件从实体中移除时调用的函数",
+        author = "764不是西红柿",
     },
         
     ["SetDiet"] = {
         params = {
-            {param = "caneat", explain = "", type = ""},
-            {param = "preferseating", explain = "", type = ""},
-
+            {param = "caneat", explain = "该对象可以食用的物品列表", type = "table"},
+            {param = "preferseating", explain = "该对象更喜欢食用的物品列表", type = "table"},
         },
         returns = {
-            
+            -- 无返回值
         },
-        tips = "",
-        author = "",
+        tips = "设置该对象的饮食偏好，包括可吃的和更喜欢吃的食物",
+        author = "764不是西红柿",
     },
         
     ["SetAbsorptionModifiers"] = {
         params = {
-            {param = "health", explain = "", type = ""},
-            {param = "hunger", explain = "", type = ""},
-            {param = "sanity", explain = "", type = ""},
-
+            {param = "health", explain = "生命值吸收的修正系数", type = "number"},
+            {param = "hunger", explain = "饥饿值吸收的修正系数", type = "number"},
+            {param = "sanity", explain = "理智值吸收的修正系数", type = "number"},
         },
         returns = {
-            
+            -- 无返回值
         },
-        tips = "",
-        author = "",
-    },
-        
-    ["TimeSinceLastEating"] = {
-        params = {
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["HasBeen"] = {
-        params = {
-            {param = "time", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["OnSave"] = {
-        params = {
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["OnLoad"] = {
-        params = {
-            {param = "data", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["SetCanEatHorrible"] = {
-        params = {
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["SetCanEatGears"] = {
-        params = {
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["SetCanEatNitre"] = {
-        params = {
-            {param = "can_eat", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["SetCanEatRaw"] = {
-        params = {
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["SetPrefersEatingTag"] = {
-        params = {
-            {param = "tag", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["SetStrongStomach"] = {
-        params = {
-            {param = "is_strong", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["SetCanEatRawMeat"] = {
-        params = {
-            {param = "can_eat", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["SetIgnoresSpoilage"] = {
-        params = {
-            {param = "ignores", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["SetRefusesSpoiledFood"] = {
-        params = {
-            {param = "refuses", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["SetOnEatFn"] = {
-        params = {
-            {param = "fn", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["DoFoodEffects"] = {
-        params = {
-            {param = "food", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["GetEdibleTags"] = {
-        params = {
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["Eat"] = {
-        params = {
-            {param = "food", explain = "", type = ""},
-            {param = "feeder", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["TestFood"] = {
-        params = {
-            {param = "food", explain = "", type = ""},
-            {param = "testvalues", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["PrefersToEat"] = {
-        params = {
-            {param = "food", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
-    },
-        
-    ["CanEat"] = {
-        params = {
-            {param = "food", explain = "", type = ""},
-
-        },
-        returns = {
-            
-        },
-        tips = "",
-        author = "",
+        tips = "设置该对象对生命、饥饿和理智值的吸收修正系数",
+        author = "764不是西红柿",
     },
         
 }
